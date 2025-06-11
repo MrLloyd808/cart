@@ -12,7 +12,7 @@ export default function Cart() {
         <ul>
           {cart.map((item, index) => (
             <li key={index}>
-              {item.product.name} - ${item.product.price}
+              {item.name} - ${item.price}
             </li>
           ))}
         </ul>
