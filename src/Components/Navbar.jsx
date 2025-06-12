@@ -9,7 +9,7 @@ export default function Navbar() {
 
         <div className="navbar-links">
           <NavLink to="/cart" className="navbar-link" activeClassName="active">
-            <FaCartShopping className='cart-icon'/>
+            <FaCartShopping className='cart-icon' t />
           </NavLink>
         </div>
     </nav>
