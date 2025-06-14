@@ -7,8 +7,8 @@ export default function Navbar() {
     <nav className="navbar">
         <Link to={'/'}><h2 className="navbar-logo">STORE</h2></Link>
 
-        <div className="navbar-links">
-        
+        <div className="navbar-links" >
+
           <NavLink to="/cart" className="navbar-link" activeClassName="active">
             <FaCartShopping className='cart-icon' />
           </NavLink>
